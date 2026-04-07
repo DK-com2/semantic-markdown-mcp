@@ -1,0 +1,24 @@
+# Environments
+.venv
+venv/
+env/
+ENV/
+
+# Python caching
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Vector Database
+.chromadb/
+
+# Editor / OS generated files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Notes folder (keep folder, ignore contents)
+notes/*
+!notes/.gitkeep
