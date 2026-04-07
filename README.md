@@ -47,5 +47,15 @@ python mcp_server.py
 インデックス化後、テスト用としてシステム自身に「このシステムのベクトル抽出はどうやってる？」と質問して動作確認を行うことができます。
 
 ## ライセンス
-MIT License
+本プロジェクトは MIT License のもとで公開されています。
+
+### サードパーティライブラリのライセンス
+本プロジェクトでは以下のオープンソースライブラリを使用しています：
+- **fastmcp**: MIT License
+- **chromadb**: Apache License 2.0
+- **langchain-text-splitters**: MIT License
+- **sentence-transformers**: Apache License 2.0
+- **PyTorch (torch)**: BSD-3-Clause License
+- **multilingual-e5-small (モデル)**: MIT License
+
 # semantic-markdown-mcp
